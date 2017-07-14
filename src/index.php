@@ -7,41 +7,18 @@
 <html>
   <head>
   
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
   
-  <title>The Golden Miner jmod170714</title>
+  <title>The Golden Miner</title>
   <meta name="title" content="The Golden Miner" />
   <meta name="description" content="Lightweight, javascript-based mining game. Doesn't need registration, free for all :)" />
   <meta name="keywords" content="mining game, miner, game, clicker, client game, javascript game" />
-  <!--
+  
   <link rel="image_src" href="http://goldenminer.org/css/images/fb_miner.png" />
   <meta property="og:image" content="http://goldenminer.org/css/images/fb_miner.png" />
- -->
-  <link rel="image_src" href="css/images/fb_miner.png" />
-  <meta property="og:image" content="css/images/fb_miner.png" />
-
-  <!--
+  
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
--->
-  <script src="cdn/jquery-1.10.1.min.js"></script>
-  <script src="cdn/jquery-ui1.10.3.js"></script>
-
-
-  <script src="js/helpers.js"></script>
-  <script src="js/nomin/lzma.js"></script>
-  <script src="js/nomin/minions.js"></script>
-  <script src="js/nomin/items.js"></script>
-  <script src="js/nomin/buildings.js"></script>
-  <script src="js/nomin/skills.js"></script>
-  <script src="js/nomin/utilities.js"></script>
-  <script src="js/nomin/game.js"></script>
-  <script src="js/nomin/animations.js"></script>
-  <script src="js/nomin/output.js"></script>
-  <script src="js/nomin/events.js"></script>
-  <script src="js/nomin/planets.js"></script>
-  <link rel='stylesheet' id='game-css'  href='css/style.css' type='text/css' media='all' />
-
 <!--
   <script src="js/helpers.js?ver=<?php echo rand(1, 800000); ?>"></script>
   <script src="js/nomin/lzma.js?ver=<?php echo rand(1, 800000); ?>"></script>
@@ -84,11 +61,9 @@
   
   <!-- *** Menu START *** -->
   <div id='top'>
-  <!--
+  
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  -->
   <!-- GM top -->
-  <!--
   <ins class="adsbygoogle"
        style="display:inline-block;width:320px;height:50px"
        data-ad-client="ca-pub-3551157714455554"
@@ -96,7 +71,7 @@
   <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
-  -->
+  
     <span class='version'>v0.30</span>
     <ul id="nav">
         <li><a>Faq & Info</a>
@@ -147,8 +122,7 @@
     
     <a href="http://twitter.com/share?url=http://goldenminer.org&text=The Golden Miner game" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
     -->
-      <!--<img src='http://goldenminer.org/css/images/heart.png?v=1' id='heart' />-->
-      <img src='css/images/heart.png?v=1' id='heart' />
+      <img src='http://goldenminer.org/css/images/heart.png?v=1' id='heart' />
     </div>    
     
   </div>

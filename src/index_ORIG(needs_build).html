@@ -7,57 +7,20 @@
 <html>
   <head>
   
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
   
-  <title>The Golden Miner jmod170714</title>
+  <title>The Golden Miner</title>
   <meta name="title" content="The Golden Miner" />
   <meta name="description" content="Lightweight, javascript-based mining game. Doesn't need registration, free for all :)" />
   <meta name="keywords" content="mining game, miner, game, clicker, client game, javascript game" />
-  <!--
+  
   <link rel="image_src" href="http://goldenminer.org/css/images/fb_miner.png" />
   <meta property="og:image" content="http://goldenminer.org/css/images/fb_miner.png" />
- -->
-  <link rel="image_src" href="css/images/fb_miner.png" />
-  <meta property="og:image" content="css/images/fb_miner.png" />
-
-  <!--
+  
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
--->
-  <script src="cdn/jquery-1.10.1.min.js"></script>
-  <script src="cdn/jquery-ui1.10.3.js"></script>
-
-
-  <script src="js/helpers.js"></script>
-  <script src="js/nomin/lzma.js"></script>
-  <script src="js/nomin/minions.js"></script>
-  <script src="js/nomin/items.js"></script>
-  <script src="js/nomin/buildings.js"></script>
-  <script src="js/nomin/skills.js"></script>
-  <script src="js/nomin/utilities.js"></script>
-  <script src="js/nomin/game.js"></script>
-  <script src="js/nomin/animations.js"></script>
-  <script src="js/nomin/output.js"></script>
-  <script src="js/nomin/events.js"></script>
-  <script src="js/nomin/planets.js"></script>
-  <link rel='stylesheet' id='game-css'  href='css/style.css' type='text/css' media='all' />
-
-<!--
-  <script src="js/helpers.js?ver=<?php echo rand(1, 800000); ?>"></script>
-  <script src="js/nomin/lzma.js?ver=<?php echo rand(1, 800000); ?>"></script>
-  <script src="js/nomin/minions.js?ver=<?php echo rand(1, 800000); ?>"></script>
-  <script src="js/nomin/items.js?ver=<?php echo rand(1, 800000); ?>"></script>
-  <script src="js/nomin/buildings.js?ver=<?php echo rand(1, 800000); ?>"></script>
-  <script src="js/nomin/skills.js?ver=<?php echo rand(1, 800000); ?>"></script>
-  <script src="js/nomin/utilities.js?ver=<?php echo rand(1, 800000); ?>"></script>
-  <script src="js/nomin/game.js?ver=<?php echo rand(1, 800000); ?>"></script>
-  <script src="js/nomin/animations.js?ver=<?php echo rand(1, 800000); ?>"></script>
-  <script src="js/nomin/output.js?ver=<?php echo rand(1, 800000); ?>"></script>
-  <script src="js/nomin/events.js?ver=<?php echo rand(1, 800000); ?>"></script>
-  <script src="js/nomin/planets.js?ver=<?php echo rand(1, 800000); ?>"></script>
-  <link rel='stylesheet' id='game-css'  href='css/style.css?ver=<?php echo rand(1, 800000); ?>' type='text/css' media='all' />
-  -->
-  <!-- Static Content -->
+  <script src="js/helpers.js?ver=0.2947"></script>
+  <script src="js/g.js?ver=0.2947"></script>
   <script>
     var game = new Object();
     (function($) {
@@ -66,7 +29,10 @@
       });
     })(jQuery);  
   </script>
-  <title></title>
+  <link rel='stylesheet' id='game-css'  href='css/style.css?ver=0.2944' type='text/css' media='all' />
+  <!-- Static Content -->
+
+
   </head>
   <body>
   
@@ -84,47 +50,14 @@
   
   <!-- *** Menu START *** -->
   <div id='top'>
-  <!--
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  -->
-  <!-- GM top -->
-  <!--
-  <ins class="adsbygoogle"
-       style="display:inline-block;width:320px;height:50px"
-       data-ad-client="ca-pub-3551157714455554"
-       data-ad-slot="9027408224"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-  -->
-    <span class='version'>v0.30</span>
-    <ul id="nav">
-        <li><a>Faq & Info</a>
-          <ul class="subs">
-            <li><a id='faq' href='#'>FAQ & Info</a></li>
-            <li><a id='wiki' target='_blank' href='http://the-golden-miner.wikia.com/wiki/The_Golden_Miner_Wiki'>Wiki</a>
-            <li><a id='subreddit' target='_blank' href='http://www.reddit.com/r/TheGoldenMiner/'>Subreddit</a>
-            <li><a id='updates' href='#'>Updates</a>
-          </ul>
-        </li>
-        <li><a>Options</a>
-          <ul class="subs">
-            <li><a id='save' href='#'>Save</a></li>
-            <li><a id='esave' href='#'>Export Save</a></li> 
-            <li><a id='isave' href='#'>Import Save</a></li>
-            <li><a id='reset' href='#'>Reset Game</a> </li>       
-          </ul>
-        </li>
-      </li>
-      <li><a>Contact</a>
-          <ul class="subs">
-            <li><a target='_blank' href='https://twitter.com/ernest_marcinko'>Twitter</a></li>
-            <li><a target='_blank' href='https://www.facebook.com/pages/The-Golden-Miner/452517451528969?ref=hl'>Facebook</a></li>
-            <li><a target='_blank' href='http://www.reddit.com/r/TheGoldenMiner/'>Reddit</a></li>
-            <li><a id='contact' href='mailto:ernest.marcinko@gmail.com'>Mail</a></li> 
-          </ul>
-      </li>
-    </ul>
+    <span class='version'>v0.29</span>
+    <a id='faq' href='#'>FAQ & Info</a>
+    <a id='updates' href='#'>Updates</a>
+    <a id='save' href='#'>Save</a>
+    <a id='esave' href='#'>Export Save</a>
+    <a id='isave' href='#'>Import Save</a>
+    <a id='reset' href='#'>Reset Game</a>
+    <a id='contact' href='mailto:ernest.marcinko@gmail.com'>Contact</a>
     <div class='donatetop'>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
       <input type="hidden" name="cmd" value="_donations">
@@ -147,8 +80,7 @@
     
     <a href="http://twitter.com/share?url=http://goldenminer.org&text=The Golden Miner game" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
     -->
-      <!--<img src='http://goldenminer.org/css/images/heart.png?v=1' id='heart' />-->
-      <img src='css/images/heart.png?v=1' id='heart' />
+      <img src='http://goldenminer.org/css/images/heart.png?v=1' id='heart' />
     </div>    
     
   </div>
@@ -169,16 +101,7 @@
     <h4>Upcoming updates</h4>
     <ul>
       <li>Achievments</li>
-    </ul>
-    <h4>Update v0.30 - 2013.10.17</h4>
-    <ul>
-      <li>Global reset - if you refresh your browser all your changes will be lost.</li>
-      <li>selling minions disabled</li>
-      <li>more legendaries (added about 50 more)</li>
-      <li>all equippable items will have 1-3 sockets</li>
-      <li>gems: [ruby, amethyst, diamond, sapphire, starstone] in 4 sizes  [tiny, small, big, giant]</li>
-      <li>to insert a gem into a socketed item: move the desired gem (from stash) over an equipped item</li>
-      <li>Extended gameplay: planets - on a certain level you must travel to another planet to start a new mine with possible negative consequences</li>
+      <li>Item upgrades by socketing</li>
     </ul>
     <h4>Update v0.29 - 2013.10.01</h4>
     <ul>
@@ -311,7 +234,7 @@
         <span class='optdesc'>Good if you are running the miner overnight and want to keep some space.</span>
       <div class='separator'></div>
       <div class="onOff"><div id='autoStashOthers' class='onOffInner'></div></div>
-        <span class='option'>Stash all remaining scrolls & potions & gems found automatically.</span>
+        <span class='option'>Stash all remaining scrolls & potions found automatically.</span>
         <span class='optdesc'>Will save you more space.</span>
       <div class='separator'></div>
   </div>
@@ -322,7 +245,6 @@
   <div class='third'>
     <div id='stats' class='box'>
       <div class='ptime left'>Game time:</div><div id='ptime' class='ptime right'>0</div>
-      <div class='planet left'>Planet:</div><div id='planet' class='planet right'>Earth</div>
       <div class='clear'></div>
       <div class="progress-bar blue stripes">
           <span id='xpbar' style="width: 40%"></span>
@@ -362,7 +284,6 @@
       </div>
       <div class='mid'>
         <a href='#' class='moptions'>Mining Options</a>
-        <a href='#' id='leaveplanet' class='leaveplanet infinitePulse'>Leave current planet</a>
         <!-- <a href='#' class='mining'>Stop mining</a> -->
       </div>
     </div>
